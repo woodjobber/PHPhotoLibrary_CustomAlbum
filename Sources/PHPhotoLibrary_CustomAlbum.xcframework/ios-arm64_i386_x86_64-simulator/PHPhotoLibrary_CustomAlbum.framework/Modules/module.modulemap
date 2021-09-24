@@ -1,0 +1,11 @@
+framework module PHPhotoLibrary_CustomAlbum {
+  umbrella header "PHPhotoLibrary_CustomAlbum.h"
+
+  export *
+  module * { export * }
+}
+
+module PHPhotoLibrary_CustomAlbum.Swift {
+    header "PHPhotoLibrary_CustomAlbum-Swift.h"
+    requires objc
+}
